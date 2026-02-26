@@ -1,0 +1,143 @@
+{
+  "logo": "/logo.png",
+  "theme": {
+    "mode": "light",
+    "light": {
+      "primary": "#1E90FF",
+      "text": "#1a1a1a",
+      "textLight": "#4a4a4a",
+      "background": "#ffffff",
+      "backgroundSoft": "#f5f5f5",
+      "border": "#e5e7eb"
+    },
+    "dark": {
+      "primary": "#1E90FF",
+      "text": "#f5f5f5",
+      "textLight": "#cfcfcf",
+      "background": "#0f0f0f",
+      "backgroundSoft": "#1a1a1a",
+      "border": "#333333"
+    }
+  },
+  "user": {
+    "name": "John Doe",
+    "kycStatus": "pending"
+  },
+  "balance": "0.00",
+  "alerts": [
+    {
+      "id": "kyc-reminder",
+      "type": "kyc",
+      "title": "Verify your identity",
+      "description": "Please complete KYC to unlock deposits, withdrawals and full trading access.",
+      "ctaLabel": "Complete verification",
+      "ctaRoute": "/settings/profile",
+      "visibleWhenKyc": ["pending", "not_started"]
+    }
+  ],
+  "nav": [
+    {
+      "label": "Trading",
+      "items": [
+        { "label": "My accounts", "route": "/trading/accounts" },
+        { "label": "Performance", "route": "/trading/performance" },
+        { "label": "History of orders", "route": "/trading/history" },
+        {
+          "label": "Finovation Terminal",
+          "route": "https://terminal.example.com",
+          "external": true
+        }
+      ]
+    },
+    {
+      "label": "Payments & wallet",
+      "items": [
+        { "label": "Deposit", "route": "/payments/deposit" },
+        { "label": "Withdrawal", "route": "/payments/withdrawal" },
+        { "label": "Transaction history", "route": "/payments/history" },
+        { "label": "Crypto wallet", "route": "/payments/crypto" }
+      ]
+    },
+    {
+      "label": "Analytics",
+      "items": [
+        { "label": "Analyst Views", "route": "/analytics/views" },
+        { "label": "Market News", "route": "/analytics/news" },
+        {
+          "label": "Economic Calendar",
+          "route": "https://calendar.example.com",
+          "external": true
+        }
+      ]
+    },
+    {
+      "label": "Finovation benefits",
+      "items": [
+        { "label": "Trading Conditions", "route": "/benefits/conditions" },
+        { "label": "Savings", "route": "/benefits/savings" },
+        { "label": "Virtual Private Server", "route": "/benefits/vps" }
+      ]
+    },
+    {
+      "label": "Settings",
+      "items": [
+        { "label": "Profile", "route": "/settings/profile" },
+        {
+          "label": "Security",
+          "route": "/settings/security",
+          "badge": "New"
+        },
+        {
+          "label": "Trading Terminal",
+          "route": "/settings/terminal"
+        }
+      ]
+    },
+
+
+    { "label": "Copy Trading", "route": "/copy-trading" },
+
+    { "label": "Support Hub", "route": "/support", "badge": "New" }
+  ],
+  "infoCards": [
+    {
+      "id": "market-hours",
+      "title": "Changes to trading hours",
+      "description": "Market schedule updates"
+    },
+    {
+      "id": "secure-funds",
+      "title": "Secure your funds",
+      "description": "Enable push notifications"
+    },
+    {
+      "id": "partner",
+      "title": "Become a partner",
+      "description": "Earn up to 40% revenue"
+    }
+  ],
+  "footer": {
+    "leftText": [
+      "Finovation LTD is a Securities Dealer registered in Seychelles with registration number 8423606-1 and authorised by the Financial Services Authority (FSA) with licence number SD025.",
+      "General Risk Warning: CFDs are leveraged products. Trading in CFDs carries a high level of risk and may not be appropriate for all investors.",
+      "Finovation complies with the Payment Card Industry Data Security Standard (PCI DSS) to ensure your security and privacy."
+    ],
+    "links": [
+      { "label": "Client Agreement", "url": "#" },
+      { "label": "General Business Terms", "url": "#" },
+      { "label": "Partnership Agreement", "url": "#" },
+      { "label": "Bonus Terms & Conditions", "url": "#" },
+      { "label": "Confidentiality Policy", "url": "#" },
+      { "label": "Key Facts Statement", "url": "#" },
+      { "label": "Conflicts of Interest", "url": "#" },
+      { "label": "Privacy Agreement", "url": "#" },
+      { "label": "Risk Disclosure", "url": "#" },
+      { "label": "Preventing Money Laundering", "url": "#" },
+      { "label": "Security Instructions", "url": "#" },
+      { "label": "Complaints Handling Policy", "url": "#" },
+      { "label": "Contact", "url": "#" }
+    ],
+    "copyright":
+      "© 2008 - 2026. Finovation"
+  }
+}
