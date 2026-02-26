@@ -7,8 +7,7 @@ interface LogoProps {
 export default function Logo({ className = "h-8" }: LogoProps) {
     return (
         <div className={`flex items-center gap-2 ${className}`}>
-            {/* ⭐ INDUSTRY STANDARD INSERTION POINT ⭐ */}
-            {/* Replace the SVG below with your company logo file or image */}
+            
             <svg
                 viewBox="0 0 24 24"
                 fill="none"
