@@ -29,7 +29,7 @@ export default function ThemeProvider({ children }: ThemeProviderProps) {
     document.documentElement.setAttribute("data-theme", next);
   };
 
-  // ⭐ Prevent hydration mismatch
+  // Prevent hydration mismatch
   if (!mounted) {
     return <div style={{ visibility: "hidden" }}>{children}</div>;
   }
