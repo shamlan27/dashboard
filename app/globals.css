@@ -1,10 +1,6 @@
 @import "tailwindcss";
 
-/**
- * 🎨 TAILWIND V4 THEME CONFIGURATION
- * Industry Standard: CSS-based theme configuration
- * Change colors here to update globally
- */
+
 
 @theme {
   /* Brand Colors - Integrated with Tailwind */
